@@ -1,4 +1,4 @@
-FROM node:8.4-alpine
+FROM node:8.11-alpine
 RUN npm install -g -s --no-progress yarn && \
     apk add --update git && \
     apk add --update openssh && \
