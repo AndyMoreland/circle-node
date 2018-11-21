@@ -4,4 +4,5 @@ RUN apk add --update git && \
     apk add --update bash && \
     apk add --update make && \
     apk add --update python2 && \
+    apk add --update gcc && \
     rm -rf /tmp/* /var/cache/apk/*
