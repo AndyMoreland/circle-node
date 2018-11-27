@@ -6,5 +6,6 @@ RUN apk add --update git && \
     apk add --update python2 && \
     apk add --update gcc && \
     apk add --update coreutils && \
+    apk add --update bc && \
     apk add --update g++ && \
     rm -rf /tmp/* /var/cache/apk/*
