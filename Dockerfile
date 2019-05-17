@@ -5,6 +5,7 @@ RUN apk add --update git && \
     apk add --update make && \
     apk add --update curl && \
     apk add --update python2 && \
+    apk add --update perl && \
     apk add --update gcc && \
     apk add --update coreutils && \
     apk add --update bc && \
